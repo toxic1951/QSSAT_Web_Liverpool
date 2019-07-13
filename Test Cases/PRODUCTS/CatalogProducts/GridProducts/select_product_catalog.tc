@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>select_product_catalog</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3c3fb22-de7c-457b-ba7e-1a5475bbe8e5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4bfaa94c-296e-4907-b9af-99cf7f6cd7c9</id>
+      <masked>false</masked>
+      <name>nameProduct</name>
+   </variable>
+</TestCaseEntity>

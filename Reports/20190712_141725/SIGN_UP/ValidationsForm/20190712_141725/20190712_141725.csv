@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ValidationsForm,Firefox 66.0,,,2019-07-12 14:17:50,2019-07-12 14:19:11,1m - 21.232s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-12 14:17:50,2019-07-12 14:18:32,42.142s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-12 14:17:51,2019-07-12 14:18:32,41.254s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-12 14:18:32,2019-07-12 14:18:32,0.396s,PASSED
+,,,,,,,
+Test Cases/SIGN_UP/access_sign_up,Firefox 66.0,,,2019-07-12 14:18:32,2019-07-12 14:18:40,8.003s,PASSED
+"callTestCase(findTestCase(""LOG_IN/access_log_in""), [:], STOP_ON_FAILURE)",Firefox 66.0,,,2019-07-12 14:18:33,2019-07-12 14:18:36,2.935s,PASSED
+"click(findTestObject(""LOG_IN/button_sign-up""))",Firefox 66.0,,,2019-07-12 14:18:36,2019-07-12 14:18:39,2.813s,PASSED
+"verifyElementVisible(findTestObject(""GLOBAL/title_h1"", [""txtTitle"":""Beneficios de Registrarse""]))",Firefox 66.0,,,2019-07-12 14:18:39,2019-07-12 14:18:40,1.184s,PASSED
+,,,,,,,
+Test Cases/SIGN_UP/email_format,Firefox 66.0,,,2019-07-12 14:18:40,2019-07-12 14:18:49,8.453s,PASSED
+"callTestCase(findTestCase(""SIGN_UP/access_sign_up""), [:], STOP_ON_FAILURE)",Firefox 66.0,,,2019-07-12 14:18:41,2019-07-12 14:18:45,3.978s,PASSED
+"verifyElementClickable(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-12 14:18:45,2019-07-12 14:18:45,0.128s,PASSED
+"setText(findTestObject(""SIGN_UP/input_email""), ""iart6yopmail.com"")",Firefox 66.0,,,2019-07-12 14:18:45,2019-07-12 14:18:46,0.773s,PASSED
+"click(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-12 14:18:46,2019-07-12 14:18:47,1.402s,PASSED
+"verifyMatch(xpath(""//label[@class=""error""]"")).getText(), ""Ingresa un email válido"", false)",Firefox 66.0,,,2019-07-12 14:18:47,2019-07-12 14:18:49,1.307s,PASSED
+,,,,,,,
+Test Cases/SIGN_UP/empty_form,Firefox 66.0,,,2019-07-12 14:18:49,2019-07-12 14:18:55,6.075s,ERROR
+"callTestCase(findTestCase(""SIGN_UP/access_sign_up""), [:], STOP_ON_FAILURE)",Firefox 66.0,,,2019-07-12 14:18:50,2019-07-12 14:18:53,3.737s,PASSED
+"verifyElementClickable(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-12 14:18:53,2019-07-12 14:18:53,0.071s,PASSED
+"click(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-12 14:18:53,2019-07-12 14:18:54,0.815s,PASSED
+"for (def e : getWebDriver().findElements(By.xpath(""//label[@class=""error""]"")))",Firefox 66.0,,,2019-07-12 14:18:54,2019-07-12 14:18:55,0.365s,PASSED
+"for ([x = 0, x <= requiredFields.size() - 1, (x++)])",Firefox 66.0,,,2019-07-12 14:18:55,2019-07-12 14:18:55,0.013s,PASSED
+,,,,,,,
+Test Cases/SIGN_UP/registered_user,Firefox 66.0,,,2019-07-12 14:18:55,2019-07-12 14:19:07,11.786s,FAILED
+"callTestCase(findTestCase(""SIGN_UP/access_sign_up""), [:], STOP_ON_FAILURE)",Firefox 66.0,,,2019-07-12 14:18:56,2019-07-12 14:18:59,2.852s,PASSED
+"verifyElementClickable(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-12 14:18:59,2019-07-12 14:18:59,0.072s,PASSED
+"setText(findTestObject(""SIGN_UP/input_email""), ""iart60910@yopmail.com"")",Firefox 66.0,,,2019-07-12 14:18:59,2019-07-12 14:18:59,0.429s,PASSED
+"setEncryptedText(findTestObject(""SIGN_UP/input_password""), ""cNkTP62zox2sjTkN4QiJDw=="")",Firefox 66.0,,,2019-07-12 14:18:59,2019-07-12 14:19:00,1.043s,PASSED
+"setText(findTestObject(""SIGN_UP/input_name""), ""IAN"")",Firefox 66.0,,,2019-07-12 14:19:00,2019-07-12 14:19:01,0.343s,PASSED
+"setText(findTestObject(""SIGN_UP/input_last-name""), ""ROMERO"")",Firefox 66.0,,,2019-07-12 14:19:01,2019-07-12 14:19:01,0.264s,PASSED
+"setText(findTestObject(""SIGN_UP/input_second-last-name""), ""TORRES"")",Firefox 66.0,,,2019-07-12 14:19:01,2019-07-12 14:19:01,0.357s,PASSED
+"selectOptionByLabel(findTestObject(""SIGN_UP/select_day""), ""27"", false)",Firefox 66.0,,,2019-07-12 14:19:01,2019-07-12 14:19:02,0.780s,PASSED
+"selectOptionByValue(findTestObject(""SIGN_UP/select_month""), ""6"", false)",Firefox 66.0,,,2019-07-12 14:19:02,2019-07-12 14:19:02,0.565s,PASSED
+"selectOptionByLabel(findTestObject(""SIGN_UP/select_year""), ""1998"", false)",Firefox 66.0,,,2019-07-12 14:19:02,2019-07-12 14:19:03,0.372s,PASSED
+"click(findTestObject(""SIGN_UP/radio_male""))",Firefox 66.0,,,2019-07-12 14:19:03,2019-07-12 14:19:03,0.351s,PASSED
+"click(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-12 14:19:03,2019-07-12 14:19:06,2.714s,PASSED
+"verifyElementText(findTestObject(""SIGN_UP/txt_alert-error""), ""Esta dirección de Correo Electrónico ya ha sido registrada previamente. Por favor anota una diferente."")",Firefox 66.0,,,2019-07-12 14:19:06,2019-07-12 14:19:06,0.197s,PASSED
+"click(findTestObject(""SIGN_UP/txt_alert-error""))",Firefox 66.0,,,2019-07-12 14:19:06,2019-07-12 14:19:07,0.539s,FAILED
+,,,,,,,
+Test Cases/SET_UP_BROWSER/close_browser,Firefox 66.0,,,2019-07-12 14:19:07,2019-07-12 14:19:11,4.109s,PASSED
+closeBrowser(),Firefox 66.0,,,2019-07-12 14:19:07,2019-07-12 14:19:11,3.783s,PASSED

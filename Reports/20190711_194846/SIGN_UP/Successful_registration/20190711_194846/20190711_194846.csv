@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Successful_registration,Firefox 66.0,,,2019-07-11 19:48:52,2019-07-11 19:51:02,2m - 10.294s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-11 19:48:52,2019-07-11 19:49:11,18.236s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-11 19:48:53,2019-07-11 19:49:10,16.986s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-11 19:49:10,2019-07-11 19:49:11,0.446s,PASSED
+,,,,,,,
+Test Cases/LOG_IN/access_log_in,Firefox 66.0,,,2019-07-11 19:49:11,2019-07-11 19:49:13,1.994s,PASSED
+"click(findTestObject(""HOME_PAGE/Header/button_login""))",Firefox 66.0,,,2019-07-11 19:49:11,2019-07-11 19:49:12,0.788s,PASSED
+"waitForElementVisible(findTestObject(""LOG_IN/iframe_log-in""), 3)",Firefox 66.0,,,2019-07-11 19:49:12,2019-07-11 19:49:13,0.396s,PASSED
+,,,,,,,
+Test Cases/SIGN_UP/access_sign_up,Firefox 66.0,,,2019-07-11 19:49:13,2019-07-11 19:49:15,2.511s,PASSED
+"click(findTestObject(""LOG_IN/button_sign-up""))",Firefox 66.0,,,2019-07-11 19:49:13,2019-07-11 19:49:14,0.950s,PASSED
+"verifyElementVisible(findTestObject(""GLOBAL/title_h1"", [""txtTitle"":""Beneficios de Registrarse""]))",Firefox 66.0,,,2019-07-11 19:49:14,2019-07-11 19:49:15,0.767s,PASSED
+,,,,,,,
+Test Cases/SIGN_UP/registered_user,Firefox 66.0,,,2019-07-11 19:49:15,2019-07-11 19:50:58,1m - 43.338s,PASSED
+"verifyElementClickable(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-11 19:49:16,2019-07-11 19:49:16,0.144s,PASSED
+"click(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-11 19:49:16,2019-07-11 19:49:17,0.515s,PASSED
+for (def x : requiredFields),Firefox 66.0,,,2019-07-11 19:49:17,2019-07-11 19:50:38,1m - 21.153s,PASSED
+"verifyEqual(flagFail, false)",Firefox 66.0,,,2019-07-11 19:50:38,2019-07-11 19:50:58,20.378s,PASSED
+,,,,,,,
+Test Cases/SET_UP_BROWSER/close_browser,Firefox 66.0,,,2019-07-11 19:50:58,2019-07-11 19:51:02,3.552s,PASSED
+closeBrowser(),Firefox 66.0,,,2019-07-11 19:50:59,2019-07-11 19:51:02,2.957s,PASSED

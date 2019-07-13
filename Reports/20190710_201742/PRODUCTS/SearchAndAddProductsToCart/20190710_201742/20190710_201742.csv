@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SearchAndAddProductsToCart,Firefox 66.0,,,2019-07-10 20:17:54,2019-07-10 20:18:49,55.098s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-10 20:17:55,2019-07-10 20:18:20,25.088s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-10 20:17:56,2019-07-10 20:18:20,23.587s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-10 20:18:20,2019-07-10 20:18:20,0.330s,PASSED
+,,,,,,,
+Test Cases/LOG_IN/access_log_in,Firefox 66.0,,,2019-07-10 20:18:20,2019-07-10 20:18:23,2.816s,PASSED
+"click(findTestObject(""HOME_PAGE/Header/button_login""))",Firefox 66.0,,,2019-07-10 20:18:21,2019-07-10 20:18:22,0.977s,PASSED
+"waitForElementVisible(findTestObject(""LOG_IN/iframe_log-in""), 3)",Firefox 66.0,,,2019-07-10 20:18:22,2019-07-10 20:18:23,0.470s,PASSED
+,,,,,,,
+Test Cases/LOG_IN/success_log_in,Firefox 66.0,,,2019-07-10 20:18:23,2019-07-10 20:18:29,5.866s,PASSED
+"setText(findTestObject(""LOG_IN/input_email""), ""iart60910@yopmail.com"")",Firefox 66.0,,,2019-07-10 20:18:24,2019-07-10 20:18:24,0.580s,PASSED
+"setEncryptedText(findTestObject(""LOG_IN/input_password""), ""pvWt8Onr8p8JrmFePASEjg=="")",Firefox 66.0,,,2019-07-10 20:18:24,2019-07-10 20:18:25,0.621s,PASSED
+"click(findTestObject(""LOG_IN/button_sign-in""))",Firefox 66.0,,,2019-07-10 20:18:25,2019-07-10 20:18:26,0.576s,PASSED
+"waitForElementNotVisible(findTestObject(""HOME_PAGE/Header/icon_load-user""), 5)",Firefox 66.0,,,2019-07-10 20:18:26,2019-07-10 20:18:28,2.737s,PASSED
+"verifyElementText(findTestObject(""LOG_IN/select_profile""), ""ian"")",Firefox 66.0,,,2019-07-10 20:18:28,2019-07-10 20:18:29,0.296s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/search_product,Firefox 66.0,,,2019-07-10 20:18:29,2019-07-10 20:18:38,8.963s,PASSED
+"waitForElementClickable(findTestObject(""HOME_PAGE/Header/input_search""), 3)",Firefox 66.0,,,2019-07-10 20:18:30,2019-07-10 20:18:30,0.249s,PASSED
+"setText(findTestObject(""HOME_PAGE/Header/input_search""), ""Gold 3 Meses"")",Firefox 66.0,,,2019-07-10 20:18:30,2019-07-10 20:18:31,0.348s,PASSED
+"click(findTestObject(""HOME_PAGE/Header/button_search""))",Firefox 66.0,,,2019-07-10 20:18:31,2019-07-10 20:18:38,7.090s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/add_product_to_cart,Firefox 66.0,,,2019-07-10 20:18:38,2019-07-10 20:18:44,6.549s,PASSED
+"waitForElementClickable(findTestObject(""PRODUCTS/DetailProducts/input_qty""), 3)",Firefox 66.0,,,2019-07-10 20:18:39,2019-07-10 20:18:39,0.477s,PASSED
+"for ([x = 0, x <= 3, (x++)])",Firefox 66.0,,,2019-07-10 20:18:39,2019-07-10 20:18:41,1.898s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProducts/button_add-shopping-cart""))",Firefox 66.0,,,2019-07-10 20:18:41,2019-07-10 20:18:42,0.910s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/DetailProducts/div_modal-product-added""), 3)",Firefox 66.0,,,2019-07-10 20:18:42,2019-07-10 20:18:43,1.016s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProducts/button_close-modal-product-added""))",Firefox 66.0,,,2019-07-10 20:18:43,2019-07-10 20:18:44,1.056s,PASSED
+,,,,,,,
+Test Cases/SET_UP_BROWSER/close_browser,Firefox 66.0,,,2019-07-10 20:18:44,2019-07-10 20:18:49,4.471s,PASSED
+closeBrowser(),Firefox 66.0,,,2019-07-10 20:18:45,2019-07-10 20:18:49,3.523s,PASSED

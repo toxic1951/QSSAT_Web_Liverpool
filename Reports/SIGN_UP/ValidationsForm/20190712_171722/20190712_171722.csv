@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ValidationsForm,Firefox 66.0,,,2019-07-12 17:17:28,2019-07-12 17:18:05,37.130s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-12 17:17:29,2019-07-12 17:17:47,18.079s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-12 17:17:30,2019-07-12 17:17:46,16.744s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-12 17:17:46,2019-07-12 17:17:47,0.402s,PASSED
+,,,,,,,
+Test Cases/SIGN_UP/access_sign_up,Firefox 66.0,,,2019-07-12 17:17:47,2019-07-12 17:17:51,4.509s,PASSED
+"callTestCase(findTestCase(""LOG_IN/access_log_in""), [:], STOP_ON_FAILURE)",Firefox 66.0,,,2019-07-12 17:17:48,2019-07-12 17:17:49,1.588s,PASSED
+"click(findTestObject(""LOG_IN/button_sign-up""))",Firefox 66.0,,,2019-07-12 17:17:49,2019-07-12 17:17:51,1.036s,PASSED
+"verifyElementVisible(findTestObject(""GLOBAL/title_h1"", [""txtTitle"":""Beneficios de Registrarse""]))",Firefox 66.0,,,2019-07-12 17:17:51,2019-07-12 17:17:51,0.710s,PASSED
+,,,,,,,
+Test Cases/SIGN_UP/email_format,Firefox 66.0,,,2019-07-12 17:17:51,2019-07-12 17:17:53,2.007s,PASSED
+"verifyElementClickable(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-12 17:17:52,2019-07-12 17:17:52,0.051s,PASSED
+"setText(findTestObject(""SIGN_UP/input_email""), ""iart6yopmail.com"")",Firefox 66.0,,,2019-07-12 17:17:52,2019-07-12 17:17:53,0.381s,PASSED
+"click(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-12 17:17:53,2019-07-12 17:17:53,0.422s,PASSED
+"verifyMatch(xpath(""//label[@class=""error""]"")).getText(), ""Ingresa un email válido"", false)",Firefox 66.0,,,2019-07-12 17:17:53,2019-07-12 17:17:53,0.162s,PASSED
+,,,,,,,
+Test Cases/SIGN_UP/registered_user,Firefox 66.0,,,2019-07-12 17:17:53,2019-07-12 17:17:59,6.100s,FAILED
+"verifyElementClickable(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-12 17:17:54,2019-07-12 17:17:54,0.059s,PASSED
+"setText(findTestObject(""SIGN_UP/input_email""), ""iart60910@yopmail.com"")",Firefox 66.0,,,2019-07-12 17:17:54,2019-07-12 17:17:54,0.247s,PASSED
+"setEncryptedText(findTestObject(""SIGN_UP/input_password""), ""cNkTP62zox2sjTkN4QiJDw=="")",Firefox 66.0,,,2019-07-12 17:17:54,2019-07-12 17:17:55,0.458s,PASSED
+"setText(findTestObject(""SIGN_UP/input_name""), ""IAN"")",Firefox 66.0,,,2019-07-12 17:17:55,2019-07-12 17:17:55,0.193s,PASSED
+"setText(findTestObject(""SIGN_UP/input_last-name""), ""ROMERO"")",Firefox 66.0,,,2019-07-12 17:17:55,2019-07-12 17:17:55,0.166s,PASSED
+"setText(findTestObject(""SIGN_UP/input_second-last-name""), ""TORRES"")",Firefox 66.0,,,2019-07-12 17:17:55,2019-07-12 17:17:55,0.144s,PASSED
+"selectOptionByLabel(findTestObject(""SIGN_UP/select_day""), ""27"", false)",Firefox 66.0,,,2019-07-12 17:17:55,2019-07-12 17:17:56,0.414s,PASSED
+"selectOptionByValue(findTestObject(""SIGN_UP/select_month""), ""6"", false)",Firefox 66.0,,,2019-07-12 17:17:56,2019-07-12 17:17:56,0.375s,PASSED
+"selectOptionByLabel(findTestObject(""SIGN_UP/select_year""), ""1998"", false)",Firefox 66.0,,,2019-07-12 17:17:56,2019-07-12 17:17:56,0.340s,PASSED
+"click(findTestObject(""SIGN_UP/radio_male""))",Firefox 66.0,,,2019-07-12 17:17:56,2019-07-12 17:17:57,0.341s,PASSED
+"click(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-12 17:17:57,2019-07-12 17:17:59,1.969s,PASSED
+"verifyElementText(findTestObject(""SIGN_UP/txt_alert-error""), ""Esta dirección de Correo Electrónico ya ha sido registrada previamente. Por favor anota una diferente."")",Firefox 66.0,,,2019-07-12 17:17:59,2019-07-12 17:17:59,0.101s,PASSED
+"sendKeys(findTestObject(""SIGN_UP/txt_alert-error""), Keys.chord(ESCAPE))",Firefox 66.0,,,2019-07-12 17:17:59,2019-07-12 17:17:59,0.611s,FAILED
+,,,,,,,
+Test Cases/SIGN_UP/empty_form,Firefox 66.0,,,2019-07-12 17:17:59,2019-07-12 17:18:01,1.390s,FAILED
+"verifyElementClickable(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-12 17:18:00,2019-07-12 17:18:00,0.054s,PASSED
+"click(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-12 17:18:00,2019-07-12 17:18:01,0.237s,FAILED
+,,,,,,,
+Test Cases/SET_UP_BROWSER/close_browser,Firefox 66.0,,,2019-07-12 17:18:01,2019-07-12 17:18:05,4.113s,PASSED
+closeBrowser(),Firefox 66.0,,,2019-07-12 17:18:01,2019-07-12 17:18:05,3.613s,PASSED

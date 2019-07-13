@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AddProcutsToCart(FromCatalog),Firefox 66.0,,,2019-07-12 17:47:16,2019-07-12 17:48:07,50.901s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-12 17:47:17,2019-07-12 17:47:34,16.205s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-12 17:47:18,2019-07-12 17:47:33,15.180s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-12 17:47:33,2019-07-12 17:47:34,0.366s,PASSED
+,,,,,,,
+Test Cases/HOME_PAGE/access_section_products,Firefox 66.0,,,2019-07-12 17:47:34,2019-07-12 17:47:49,15.603s,PASSED
+"waitForElementVisible(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]), 3)",Firefox 66.0,,,2019-07-12 17:47:35,2019-07-12 17:47:41,5.139s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]))",Firefox 66.0,,,2019-07-12 17:47:41,2019-07-12 17:47:41,0.332s,PASSED
+delay(1),Firefox 66.0,,,2019-07-12 17:47:41,2019-07-12 17:47:42,1.054s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/li_sub-menu"", [""nameOption"":""Videojuegos""]))",Firefox 66.0,,,2019-07-12 17:47:42,2019-07-12 17:47:42,0.411s,PASSED
+delay(1),Firefox 66.0,,,2019-07-12 17:47:42,2019-07-12 17:47:43,1.008s,PASSED
+"click(findTestObject(""HOME_PAGE/NavBar/a_section"", [""nameTitleSection"":""Accesorios"", ""nameSection"":""XBOX""]))",Firefox 66.0,,,2019-07-12 17:47:43,2019-07-12 17:47:49,5.626s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Firefox 66.0,,,2019-07-12 17:47:49,2019-07-12 17:47:49,0.174s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/CatalogProducts/GridProducts/select_product_catalog,Firefox 66.0,,,2019-07-12 17:47:49,2019-07-12 17:47:59,9.481s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Firefox 66.0,,,2019-07-12 17:47:50,2019-07-12 17:47:50,0.062s,PASSED
+"click(findTestObject(""PRODUCTS/CatalogProducts/li_product"", [""nameProduct"":""Gold 3 Meses""]))",Firefox 66.0,,,2019-07-12 17:47:50,2019-07-12 17:47:55,5.334s,PASSED
+"waitForElementNotVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Firefox 66.0,,,2019-07-12 17:47:55,2019-07-12 17:47:59,3.578s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/DetailProduct/GeneralView/add_product_to_cart,Firefox 66.0,,,2019-07-12 17:47:59,2019-07-12 17:48:04,5.398s,PASSED
+"waitForElementClickable(findTestObject(""PRODUCTS/DetailProducts/input_qty""), 3)",Firefox 66.0,,,2019-07-12 17:47:59,2019-07-12 17:47:59,0.078s,PASSED
+"for ([x = 1, x <= 3, (x++)])",Firefox 66.0,,,2019-07-12 17:47:59,2019-07-12 17:48:03,3.379s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProducts/button_add-shopping-cart""))",Firefox 66.0,,,2019-07-12 17:48:03,2019-07-12 17:48:03,0.446s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/DetailProducts/div_modal-product-added""), 3)",Firefox 66.0,,,2019-07-12 17:48:03,2019-07-12 17:48:04,0.729s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProducts/button_close-modal-product-added""))",Firefox 66.0,,,2019-07-12 17:48:04,2019-07-12 17:48:04,0.376s,PASSED
+,,,,,,,
+Test Cases/SET_UP_BROWSER/close_browser,Firefox 66.0,,,2019-07-12 17:48:04,2019-07-12 17:48:07,3.296s,PASSED
+closeBrowser(),Firefox 66.0,,,2019-07-12 17:48:05,2019-07-12 17:48:07,2.745s,PASSED

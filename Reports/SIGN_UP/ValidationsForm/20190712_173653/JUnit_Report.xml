@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="ValidationsForm" time="54" tests="6" failures="0" errors="0">
+    <testsuite name="ValidationsForm" tests="6" failures="0" errors="0" time="54" timestamp="2019-07-12 17:36:58" hostname="QualtopGroup - DESKTOP-JOAKIH6.cyamoda.com" id="Test Suites/SIGN_UP/ValidationsForm">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\QualtopGroup\\Katalon Studio\\QSSAT_Web_Liverpool\\Reports\\SIGN_UP\\ValidationsForm\\20190712_173653"/>
+            <property name="logFiles" value="C:\\Users\\QualtopGroup\\Katalon Studio\\QSSAT_Web_Liverpool\\Reports\\SIGN_UP\\ValidationsForm\\20190712_173653\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="QualtopGroup - DESKTOP-JOAKIH6.cyamoda.com"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+            <property name="browser" value="Firefox 66.0"/>
+            <property name="hostAddress" value="172.16.6.68"/>
+            <property name="sessionId" value="b9952798-8bc5-49ad-b815-6da4ff9116d7"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/SET_UP_BROWSER/launch_browser" classname="Test Cases/SET_UP_BROWSER/launch_browser" status="PASSED">
+            <system-out>2019-07-12 17:36:59 - [TEST_CASE][PASSED] - Test Cases/SET_UP_BROWSER/launch_browser: Test Cases/SET_UP_BROWSER/launch_browser&#xD;
+&#xD;
+2019-07-12 17:36:59 - [TEST_STEP][PASSED] - openBrowser(BASE_URL): Browser is opened with url: 'https://www.liverpool.com.mx/tienda/home.jsp'&#xD;
+&#xD;
+2019-07-12 17:37:00 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-07-12 17:37:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-07-12 17:37:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.liverpool.com.mx/tienda/home.jsp'&#xD;
+&#xD;
+2019-07-12 17:37:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-07-12 17:37:14 - [MESSAGE][PASSED] - Current window maximized</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/SIGN_UP/access_sign_up" classname="Test Cases/SIGN_UP/access_sign_up" status="PASSED">
+            <system-out>2019-07-12 17:37:14 - [TEST_CASE][PASSED] - Test Cases/SIGN_UP/access_sign_up: Test Cases/SIGN_UP/access_sign_up&#xD;
+&#xD;
+2019-07-12 17:37:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LOG_IN/access_log_in"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LOG_IN/access_log_in' successfully&#xD;
+&#xD;
+2019-07-12 17:37:15 - [TEST_CASE][PASSED] - Test Cases/LOG_IN/access_log_in: Test Cases/LOG_IN/access_log_in&#xD;
+&#xD;
+2019-07-12 17:37:16 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("HOME_PAGE/Header/button_login")): Object 'Object Repository/HOME_PAGE/Header/button_login' is clickable&#xD;
+&#xD;
+2019-07-12 17:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/HOME_PAGE/Header/button_login' is clickable&#xD;
+&#xD;
+2019-07-12 17:37:16 - [TEST_STEP][PASSED] - click(findTestObject("HOME_PAGE/Header/button_login")): Object: 'Object Repository/HOME_PAGE/Header/button_login' is clicked on&#xD;
+&#xD;
+2019-07-12 17:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/HOME_PAGE/Header/button_login' is clicked on&#xD;
+&#xD;
+2019-07-12 17:37:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("LOG_IN/iframe_log-in"), 3): Object 'Object Repository/LOG_IN/iframe_log-in' is visible&#xD;
+&#xD;
+2019-07-12 17:37:17 - [MESSAGE][PASSED] - Object 'Object Repository/LOG_IN/iframe_log-in' is visible&#xD;
+&#xD;
+2019-07-12 17:37:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOG_IN/access_log_in' successfully&#xD;
+&#xD;
+2019-07-12 17:37:17 - [TEST_STEP][PASSED] - click(findTestObject("LOG_IN/button_sign-up")): Object: 'Object Repository/LOG_IN/button_sign-up' is clicked on&#xD;
+&#xD;
+2019-07-12 17:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LOG_IN/button_sign-up' is clicked on&#xD;
+&#xD;
+2019-07-12 17:37:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GLOBAL/title_h1", ["txtTitle":"Beneficios de Registrarse"])): Object 'Object Repository/GLOBAL/title_h1' is visible&#xD;
+&#xD;
+2019-07-12 17:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/GLOBAL/title_h1' is visible</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/SIGN_UP/email_format" classname="Test Cases/SIGN_UP/email_format" status="PASSED">
+            <system-out>2019-07-12 17:37:19 - [TEST_CASE][PASSED] - Test Cases/SIGN_UP/email_format: Test Cases/SIGN_UP/email_format&#xD;
+&#xD;
+2019-07-12 17:37:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SIGN_UP/prepare_form"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SIGN_UP/prepare_form' successfully&#xD;
+&#xD;
+2019-07-12 17:37:20 - [TEST_CASE][PASSED] - Test Cases/SIGN_UP/prepare_form: Test Cases/SIGN_UP/prepare_form&#xD;
+&#xD;
+2019-07-12 17:37:21 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("LOG_IN/iframe_log-in"), 3, OPTIONAL) || waitForElementVisible(findTestObject("SIGN_UP/txt_alert-error"), 3, OPTIONAL)): Web element with id: 'Object Repository/SIGN_UP/txt_alert-error' located by 'By.xpath: //div[@class='alerta error']/p' not found&#xD;
+&#xD;
+2019-07-12 17:37:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //iframe[@class = 'fancybox-iframe']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-07-12 17:37:24 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/LOG_IN/iframe_log-in' located by 'By.xpath: //iframe[@class = 'fancybox-iframe']' not found&#xD;
+&#xD;
+2019-07-12 17:37:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='alerta error']/p'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-07-12 17:37:27 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/SIGN_UP/txt_alert-error' located by 'By.xpath: //div[@class='alerta error']/p' not found&#xD;
+&#xD;
+2019-07-12 17:37:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SIGN_UP/prepare_form' successfully&#xD;
+&#xD;
+2019-07-12 17:37:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("SIGN_UP/button_accept")): Object 'Object Repository/SIGN_UP/button_accept' is clickable&#xD;
+&#xD;
+2019-07-12 17:37:27 - [MESSAGE][PASSED] - Object 'Object Repository/SIGN_UP/button_accept' is clickable&#xD;
+&#xD;
+2019-07-12 17:37:27 - [TEST_STEP][PASSED] - setText(findTestObject("SIGN_UP/input_email"), "iart6yopmail.com"): Text 'iart6yopmail.com' is set on object 'Object Repository/SIGN_UP/input_email'&#xD;
+&#xD;
+2019-07-12 17:37:27 - [MESSAGE][PASSED] - Text 'iart6yopmail.com' is set on object 'Object Repository/SIGN_UP/input_email'&#xD;
+&#xD;
+2019-07-12 17:37:27 - [TEST_STEP][PASSED] - click(findTestObject("SIGN_UP/button_accept")): Object: 'Object Repository/SIGN_UP/button_accept' is clicked on&#xD;
+&#xD;
+2019-07-12 17:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/SIGN_UP/button_accept' is clicked on&#xD;
+&#xD;
+2019-07-12 17:37:28 - [TEST_STEP][PASSED] - verifyMatch(xpath("//label[@class="error"]")).getText(), "Ingresa un email válido", false): Actual text 'Ingresa un email válido' and expected text 'Ingresa un email válido' are matched &#xD;
+&#xD;
+2019-07-12 17:37:28 - [MESSAGE][PASSED] - Actual text 'Ingresa un email válido' and expected text 'Ingresa un email válido' are matched</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/SIGN_UP/registered_user" classname="Test Cases/SIGN_UP/registered_user" status="PASSED">
+            <system-out>2019-07-12 17:37:28 - [TEST_CASE][PASSED] - Test Cases/SIGN_UP/registered_user: Test Cases/SIGN_UP/registered_user&#xD;
+&#xD;
+2019-07-12 17:37:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SIGN_UP/prepare_form"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SIGN_UP/prepare_form' successfully&#xD;
+&#xD;
+2019-07-12 17:37:28 - [TEST_CASE][PASSED] - Test Cases/SIGN_UP/prepare_form: Test Cases/SIGN_UP/prepare_form&#xD;
+&#xD;
+2019-07-12 17:37:28 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("LOG_IN/iframe_log-in"), 3, OPTIONAL) || waitForElementVisible(findTestObject("SIGN_UP/txt_alert-error"), 3, OPTIONAL)): Web element with id: 'Object Repository/SIGN_UP/txt_alert-error' located by 'By.xpath: //div[@class='alerta error']/p' not found&#xD;
+&#xD;
+2019-07-12 17:37:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //iframe[@class = 'fancybox-iframe']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-07-12 17:37:31 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/LOG_IN/iframe_log-in' located by 'By.xpath: //iframe[@class = 'fancybox-iframe']' not found&#xD;
+&#xD;
+2019-07-12 17:37:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='alerta error']/p'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-07-12 17:37:35 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/SIGN_UP/txt_alert-error' located by 'By.xpath: //div[@class='alerta error']/p' not found&#xD;
+&#xD;
+2019-07-12 17:37:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SIGN_UP/prepare_form' successfully&#xD;
+&#xD;
+2019-07-12 17:37:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("SIGN_UP/button_accept")): Object 'Object Repository/SIGN_UP/button_accept' is clickable&#xD;
+&#xD;
+2019-07-12 17:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/SIGN_UP/button_accept' is clickable&#xD;
+&#xD;
+2019-07-12 17:37:35 - [TEST_STEP][PASSED] - setText(findTestObject("SIGN_UP/input_email"), "iart60910@yopmail.com"): Text 'iart60910@yopmail.com' is set on object 'Object Repository/SIGN_UP/input_email'&#xD;
+&#xD;
+2019-07-12 17:37:35 - [MESSAGE][PASSED] - Text 'iart60910@yopmail.com' is set on object 'Object Repository/SIGN_UP/input_email'&#xD;
+&#xD;
+2019-07-12 17:37:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SIGN_UP/input_password"), "cNkTP62zox2sjTkN4QiJDw=="): Text ****** has been set on object 'Object Repository/SIGN_UP/input_password'&#xD;
+&#xD;
+2019-07-12 17:37:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SIGN_UP/input_password'&#xD;
+&#xD;
+2019-07-12 17:37:36 - [TEST_STEP][PASSED] - setText(findTestObject("SIGN_UP/input_name"), "IAN"): Text 'IAN' is set on object 'Object Repository/SIGN_UP/input_name'&#xD;
+&#xD;
+2019-07-12 17:37:36 - [MESSAGE][PASSED] - Text 'IAN' is set on object 'Object Repository/SIGN_UP/input_name'&#xD;
+&#xD;
+2019-07-12 17:37:36 - [TEST_STEP][PASSED] - setText(findTestObject("SIGN_UP/input_last-name"), "ROMERO"): Text 'ROMERO' is set on object 'Object Repository/SIGN_UP/input_last-name'&#xD;
+&#xD;
+2019-07-12 17:37:36 - [MESSAGE][PASSED] - Text 'ROMERO' is set on object 'Object Repository/SIGN_UP/input_last-name'&#xD;
+&#xD;
+2019-07-12 17:37:36 - [TEST_STEP][PASSED] - setText(findTestObject("SIGN_UP/input_second-last-name"), "TORRES"): Text 'TORRES' is set on object 'Object Repository/SIGN_UP/input_second-last-name'&#xD;
+&#xD;
+2019-07-12 17:37:36 - [MESSAGE][PASSED] - Text 'TORRES' is set on object 'Object Repository/SIGN_UP/input_second-last-name'&#xD;
+&#xD;
+2019-07-12 17:37:36 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("SIGN_UP/select_day"), "27", false): All options with label '27' are selected in object 'Object Repository/SIGN_UP/select_day' &#xD;
+&#xD;
+2019-07-12 17:37:37 - [MESSAGE][PASSED] - All options with label '27' are selected in object 'Object Repository/SIGN_UP/select_day' &#xD;
+&#xD;
+2019-07-12 17:37:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SIGN_UP/select_month"), "6", false): All options with value '6' are selected in object 'Object Repository/SIGN_UP/select_month' &#xD;
+&#xD;
+2019-07-12 17:37:37 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/SIGN_UP/select_month' &#xD;
+&#xD;
+2019-07-12 17:37:37 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("SIGN_UP/select_year"), "1998", false): All options with label '1998' are selected in object 'Object Repository/SIGN_UP/select_year' &#xD;
+&#xD;
+2019-07-12 17:37:38 - [MESSAGE][PASSED] - All options with label '1998' are selected in object 'Object Repository/SIGN_UP/select_year' &#xD;
+&#xD;
+2019-07-12 17:37:38 - [TEST_STEP][PASSED] - click(findTestObject("SIGN_UP/radio_male")): Object: 'Object Repository/SIGN_UP/radio_male' is clicked on&#xD;
+&#xD;
+2019-07-12 17:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/SIGN_UP/radio_male' is clicked on&#xD;
+&#xD;
+2019-07-12 17:37:38 - [TEST_STEP][PASSED] - click(findTestObject("SIGN_UP/button_accept")): Object: 'Object Repository/SIGN_UP/button_accept' is clicked on&#xD;
+&#xD;
+2019-07-12 17:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SIGN_UP/button_accept' is clicked on&#xD;
+&#xD;
+2019-07-12 17:37:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SIGN_UP/txt_alert-error"), "Esta dirección de Correo Electrónico ya ha sido registrada previamente. Por favor anota una diferente."): Actual text and expected text of test object 'Object Repository/SIGN_UP/txt_alert-error' are matched.&#xD;
+&#xD;
+2019-07-12 17:37:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SIGN_UP/txt_alert-error' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/SIGN_UP/empty_form" classname="Test Cases/SIGN_UP/empty_form" status="PASSED">
+            <system-out>2019-07-12 17:37:41 - [TEST_CASE][PASSED] - Test Cases/SIGN_UP/empty_form: Test Cases/SIGN_UP/empty_form&#xD;
+&#xD;
+2019-07-12 17:37:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SIGN_UP/prepare_form"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SIGN_UP/prepare_form' successfully&#xD;
+&#xD;
+2019-07-12 17:37:42 - [TEST_CASE][PASSED] - Test Cases/SIGN_UP/prepare_form: Test Cases/SIGN_UP/prepare_form&#xD;
+&#xD;
+2019-07-12 17:37:42 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("LOG_IN/iframe_log-in"), 3, OPTIONAL) || waitForElementVisible(findTestObject("SIGN_UP/txt_alert-error"), 3, OPTIONAL)): Refresh successfully&#xD;
+&#xD;
+2019-07-12 17:37:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //iframe[@class = 'fancybox-iframe']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-07-12 17:37:45 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/LOG_IN/iframe_log-in' located by 'By.xpath: //iframe[@class = 'fancybox-iframe']' not found&#xD;
+&#xD;
+2019-07-12 17:37:45 - [MESSAGE][PASSED] - Object 'Object Repository/SIGN_UP/txt_alert-error' is visible&#xD;
+&#xD;
+2019-07-12 17:37:45 - [TEST_STEP][PASSED] - refresh(): Refresh successfully&#xD;
+&#xD;
+2019-07-12 17:37:48 - [MESSAGE][PASSED] - Refresh successfully&#xD;
+&#xD;
+2019-07-12 17:37:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SIGN_UP/prepare_form' successfully&#xD;
+&#xD;
+2019-07-12 17:37:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("SIGN_UP/button_accept")): Object 'Object Repository/SIGN_UP/button_accept' is clickable&#xD;
+&#xD;
+2019-07-12 17:37:48 - [MESSAGE][PASSED] - Object 'Object Repository/SIGN_UP/button_accept' is clickable&#xD;
+&#xD;
+2019-07-12 17:37:48 - [TEST_STEP][PASSED] - click(findTestObject("SIGN_UP/button_accept")): Object: 'Object Repository/SIGN_UP/button_accept' is clicked on&#xD;
+&#xD;
+2019-07-12 17:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SIGN_UP/button_accept' is clicked on&#xD;
+&#xD;
+2019-07-12 17:37:48 - [TEST_STEP][PASSED] - for (def e : getWebDriver().findElements(By.xpath("//label[@class="error"]"))): null&#xD;
+&#xD;
+2019-07-12 17:37:48 - [TEST_STEP][PASSED] - actualReqFields.add(e.getText()): null&#xD;
+&#xD;
+2019-07-12 17:37:48 - [TEST_STEP][PASSED] - actualReqFields.add(e.getText()): null&#xD;
+&#xD;
+2019-07-12 17:37:48 - [TEST_STEP][PASSED] - actualReqFields.add(e.getText()): null&#xD;
+&#xD;
+2019-07-12 17:37:48 - [TEST_STEP][PASSED] - actualReqFields.add(e.getText()): null&#xD;
+&#xD;
+2019-07-12 17:37:48 - [TEST_STEP][PASSED] - actualReqFields.add(e.getText()): null&#xD;
+&#xD;
+2019-07-12 17:37:48 - [TEST_STEP][PASSED] - actualReqFields.add(e.getText()): null&#xD;
+&#xD;
+2019-07-12 17:37:48 - [TEST_STEP][PASSED] - actualReqFields.add(e.getText()): null&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - actualReqFields.add(e.getText()): null&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - actualReqFields.add(e.getText()): null&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - for ([x = 0, x &lt;= requiredFields.size() - 1, (x++)]): 
+
+ ¡¡ Si se encontro: Introduce tu correo electrónico !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - if (actualReqFields.contains(requiredFields.get(x))): 
+
+ ¡¡ Si se encontro: Introduce tu nombre !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - logInfo("
+
+ ¡¡ Si se encontro: " + get(x).toString() + " !! 
+
+"): 
+
+ ¡¡ Si se encontro: Introduce tu nombre !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [MESSAGE][INFO] - 
+
+ ¡¡ Si se encontro: Introduce tu nombre !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - if (actualReqFields.contains(requiredFields.get(x))): 
+
+ ¡¡ Si se encontro: Por favor introduzca el apellido paterno !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - logInfo("
+
+ ¡¡ Si se encontro: " + get(x).toString() + " !! 
+
+"): 
+
+ ¡¡ Si se encontro: Por favor introduzca el apellido paterno !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [MESSAGE][INFO] - 
+
+ ¡¡ Si se encontro: Por favor introduzca el apellido paterno !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - if (actualReqFields.contains(requiredFields.get(x))): 
+
+ ¡¡ Si se encontro: El dia es requerido !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - logInfo("
+
+ ¡¡ Si se encontro: " + get(x).toString() + " !! 
+
+"): 
+
+ ¡¡ Si se encontro: El dia es requerido !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [MESSAGE][INFO] - 
+
+ ¡¡ Si se encontro: El dia es requerido !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - if (actualReqFields.contains(requiredFields.get(x))): 
+
+ ¡¡ Si se encontro: El mes es requerido !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - logInfo("
+
+ ¡¡ Si se encontro: " + get(x).toString() + " !! 
+
+"): 
+
+ ¡¡ Si se encontro: El mes es requerido !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [MESSAGE][INFO] - 
+
+ ¡¡ Si se encontro: El mes es requerido !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - if (actualReqFields.contains(requiredFields.get(x))): 
+
+ ¡¡ Si se encontro: El año es requerido !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - logInfo("
+
+ ¡¡ Si se encontro: " + get(x).toString() + " !! 
+
+"): 
+
+ ¡¡ Si se encontro: El año es requerido !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [MESSAGE][INFO] - 
+
+ ¡¡ Si se encontro: El año es requerido !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - if (actualReqFields.contains(requiredFields.get(x))): 
+
+ ¡¡ Si se encontro: Por favor selecciona el Sexo. !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - logInfo("
+
+ ¡¡ Si se encontro: " + get(x).toString() + " !! 
+
+"): 
+
+ ¡¡ Si se encontro: Por favor selecciona el Sexo. !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [MESSAGE][INFO] - 
+
+ ¡¡ Si se encontro: Por favor selecciona el Sexo. !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - if (actualReqFields.contains(requiredFields.get(x))): 
+
+ ¡¡ Si se encontro: Introduce tu Apellido Materno. !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - logInfo("
+
+ ¡¡ Si se encontro: " + get(x).toString() + " !! 
+
+"): 
+
+ ¡¡ Si se encontro: Introduce tu Apellido Materno. !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [MESSAGE][INFO] - 
+
+ ¡¡ Si se encontro: Introduce tu Apellido Materno. !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - if (actualReqFields.contains(requiredFields.get(x))): 
+
+ ¡¡ Si se encontro: Introduce tu contraseña !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - logInfo("
+
+ ¡¡ Si se encontro: " + get(x).toString() + " !! 
+
+"): 
+
+ ¡¡ Si se encontro: Introduce tu contraseña !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [MESSAGE][INFO] - 
+
+ ¡¡ Si se encontro: Introduce tu contraseña !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - if (actualReqFields.contains(requiredFields.get(x))): 
+
+ ¡¡ Si se encontro: Introduce tu correo electrónico !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - logInfo("
+
+ ¡¡ Si se encontro: " + get(x).toString() + " !! 
+
+"): 
+
+ ¡¡ Si se encontro: Introduce tu correo electrónico !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [MESSAGE][INFO] - 
+
+ ¡¡ Si se encontro: Introduce tu correo electrónico !! 
+
+&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - verifyEqual(flagFail, false): Actual object 'false' and expected object 'false' are equal&#xD;
+&#xD;
+2019-07-12 17:37:49 - [MESSAGE][PASSED] - Actual object 'false' and expected object 'false' are equal</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/SET_UP_BROWSER/close_browser" classname="Test Cases/SET_UP_BROWSER/close_browser" status="PASSED">
+            <system-out>2019-07-12 17:37:49 - [TEST_CASE][PASSED] - Test Cases/SET_UP_BROWSER/close_browser: Test Cases/SET_UP_BROWSER/close_browser&#xD;
+&#xD;
+2019-07-12 17:37:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-07-12 17:37:52 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-12 17:36:58 - [TEST_SUITE][INCOMPLETE] - ValidationsForm: null</system-out>
+        <system-err>2019-07-12 17:36:58 - [TEST_SUITE][INCOMPLETE] - ValidationsForm: null</system-err>
+    </testsuite>
+</testsuites>

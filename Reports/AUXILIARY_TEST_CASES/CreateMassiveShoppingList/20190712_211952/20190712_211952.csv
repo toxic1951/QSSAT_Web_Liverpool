@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CreateMassiveShoppingList,Firefox 66.0,,,2019-07-12 21:19:57,2019-07-12 21:20:30,33.043s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-12 21:19:58,2019-07-12 21:20:12,14.433s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-12 21:19:58,2019-07-12 21:20:12,13.211s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-12 21:20:12,2019-07-12 21:20:12,0.440s,PASSED
+,,,,,,,
+Test Cases/HOME_PAGE/access_section_products,Firefox 66.0,,,2019-07-12 21:20:12,2019-07-12 21:20:25,12.978s,PASSED
+"waitForElementVisible(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]), 3)",Firefox 66.0,,,2019-07-12 21:20:14,2019-07-12 21:20:15,1.086s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]))",Firefox 66.0,,,2019-07-12 21:20:15,2019-07-12 21:20:16,0.693s,PASSED
+delay(1),Firefox 66.0,,,2019-07-12 21:20:16,2019-07-12 21:20:17,1.066s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/li_sub-menu"", [""nameOption"":""Videojuegos""]))",Firefox 66.0,,,2019-07-12 21:20:17,2019-07-12 21:20:17,0.338s,PASSED
+delay(1),Firefox 66.0,,,2019-07-12 21:20:17,2019-07-12 21:20:18,1.013s,PASSED
+"click(findTestObject(""HOME_PAGE/NavBar/a_section"", [""nameTitleSection"":""Accesorios"", ""nameSection"":""XBOX""]))",Firefox 66.0,,,2019-07-12 21:20:18,2019-07-12 21:20:25,6.702s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Firefox 66.0,,,2019-07-12 21:20:25,2019-07-12 21:20:25,0.254s,PASSED
+,,,,,,,
+Test Cases/AUXILIARY_TEST_CASES/fill_excel_shopping_cart,Firefox 66.0,,,2019-07-12 21:20:25,2019-07-12 21:20:30,4.988s,ERROR
+driver = getWebDriver(),Firefox 66.0,,,2019-07-12 21:20:26,2019-07-12 21:20:26,0.033s,PASSED
+listProducts = [],Firefox 66.0,,,2019-07-12 21:20:26,2019-07-12 21:20:26,0.013s,PASSED
+"for ([i = 1, i <= listProducts.size() - 1, (i++)])",Firefox 66.0,,,2019-07-12 21:20:26,2019-07-12 21:20:27,1.022s,PASSED
+"qssat.web.liverpool.SaveProdcutsDBExcel.saveProducts(listProducts, limit)",Firefox 66.0,,,2019-07-12 21:20:27,2019-07-12 21:20:30,2.754s,ERROR

@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SendOpinionProduct,Firefox 66.0,,,2019-07-13 01:25:11,2019-07-13 01:27:36,2m - 25.163s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-13 01:25:12,2019-07-13 01:25:24,12.391s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-13 01:25:12,2019-07-13 01:25:24,11.581s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-13 01:25:24,2019-07-13 01:25:24,0.085s,PASSED
+,,,,,,,
+Test Cases/HOME_PAGE/search_product,Firefox 66.0,,,2019-07-13 01:25:24,2019-07-13 01:25:29,4.965s,PASSED
+"waitForElementClickable(findTestObject(""HOME_PAGE/Header/input_search""), 3)",Firefox 66.0,,,2019-07-13 01:25:26,2019-07-13 01:25:26,0.396s,PASSED
+"setText(findTestObject(""HOME_PAGE/Header/input_search""), nameProduct)",Firefox 66.0,,,2019-07-13 01:25:26,2019-07-13 01:25:26,0.540s,PASSED
+"click(findTestObject(""HOME_PAGE/Header/button_search""))",Firefox 66.0,,,2019-07-13 01:25:26,2019-07-13 01:25:29,2.644s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/CatalogProducts/GridProducts/select_product_catalog,Firefox 66.0,,,2019-07-13 01:25:29,2019-07-13 01:25:37,7.481s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Firefox 66.0,,,2019-07-13 01:25:30,2019-07-13 01:25:30,0.089s,PASSED
+"click(findTestObject(""PRODUCTS/CatalogProducts/li_product"", [""nameProduct"":nameProduct]))",Firefox 66.0,,,2019-07-13 01:25:30,2019-07-13 01:25:33,3.509s,PASSED
+"waitForElementNotVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Firefox 66.0,,,2019-07-13 01:25:33,2019-07-13 01:25:37,3.267s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/DetailProduct/ProductOpinion/access_product_opinion,Firefox 66.0,,,2019-07-13 01:25:37,2019-07-13 01:25:38,1.552s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/button_opinion""), 3)",Firefox 66.0,,,2019-07-13 01:25:37,2019-07-13 01:25:37,0.115s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/button_opinion""))",Firefox 66.0,,,2019-07-13 01:25:37,2019-07-13 01:25:38,0.354s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/button_send-opinion""), 3)",Firefox 66.0,,,2019-07-13 01:25:38,2019-07-13 01:25:38,0.642s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/DetailProduct/ProductOpinion/send_opinion,Firefox 66.0,,,2019-07-13 01:25:38,2019-07-13 01:27:34,1m - 55.680s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/button_send-opinion""), 3)",Firefox 66.0,,,2019-07-13 01:25:39,2019-07-13 01:26:01,22.278s,PASSED
+"setText(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/input_title-opinion""), ""¡¡Excelente servicio!!"")",Firefox 66.0,,,2019-07-13 01:26:01,2019-07-13 01:26:03,1.600s,PASSED
+"setText(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/input_write-opinion""), ""Cinco estrellas Aut_Test"")",Firefox 66.0,,,2019-07-13 01:26:03,2019-07-13 01:26:04,1.060s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/button_add-photo""))",Firefox 66.0,,,2019-07-13 01:26:04,2019-07-13 01:26:09,5.645s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/input_upload-photo""), 3)",Firefox 66.0,,,2019-07-13 01:26:09,2019-07-13 01:26:15,5.681s,PASSED
+"uploadFile(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/input_upload-photo""), ""C:\Users\QualtopGroup\Katalon Studio\QSSAT_Web_Liverpool\Files\img.png"")",Firefox 66.0,,,2019-07-13 01:26:15,2019-07-13 01:27:01,45.858s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/button_accept-add-photo""))",Firefox 66.0,,,2019-07-13 01:27:01,2019-07-13 01:27:22,20.676s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/button_accept-add-photo""))",Firefox 66.0,,,2019-07-13 01:27:22,2019-07-13 01:27:25,3.362s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/button_send-opinion""))",Firefox 66.0,,,2019-07-13 01:27:25,2019-07-13 01:27:34,8.905s,PASSED
+,,,,,,,
+Test Cases/SET_UP_BROWSER/close_browser,Firefox 66.0,,,2019-07-13 01:27:34,2019-07-13 01:27:36,2.293s,PASSED
+closeBrowser(),Firefox 66.0,,,2019-07-13 01:27:34,2019-07-13 01:27:36,1.875s,PASSED

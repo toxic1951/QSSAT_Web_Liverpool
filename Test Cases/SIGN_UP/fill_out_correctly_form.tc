@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>fill_out_correctly_form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a24d6d4d-6894-4520-b9f5-92cb48e4853b</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>741339ea-abfd-433c-be42-8bfcf41adf05</id>
+      <masked>false</masked>
+      <name>rand</name>
+   </variable>
+</TestCaseEntity>

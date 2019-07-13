@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SendOpinionProduct,Firefox 66.0,,,2019-07-13 01:55:43,2019-07-13 01:56:48,1m - 5.479s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-13 01:55:43,2019-07-13 01:55:58,14.460s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-13 01:55:44,2019-07-13 01:55:58,13.365s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-13 01:55:58,2019-07-13 01:55:58,0.072s,PASSED
+,,,,,,,
+Test Cases/HOME_PAGE/search_product,Firefox 66.0,,,2019-07-13 01:55:58,2019-07-13 01:56:03,4.999s,PASSED
+"waitForElementClickable(findTestObject(""HOME_PAGE/Header/input_search""), 3)",Firefox 66.0,,,2019-07-13 01:55:58,2019-07-13 01:55:59,0.755s,PASSED
+"setText(findTestObject(""HOME_PAGE/Header/input_search""), nameProduct)",Firefox 66.0,,,2019-07-13 01:55:59,2019-07-13 01:56:00,0.602s,PASSED
+"click(findTestObject(""HOME_PAGE/Header/button_search""))",Firefox 66.0,,,2019-07-13 01:56:00,2019-07-13 01:56:03,2.777s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/CatalogProducts/GridProducts/select_product_catalog,Firefox 66.0,,,2019-07-13 01:56:03,2019-07-13 01:56:12,9.157s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Firefox 66.0,,,2019-07-13 01:56:03,2019-07-13 01:56:03,0.078s,PASSED
+"click(findTestObject(""PRODUCTS/CatalogProducts/li_product"", [""nameProduct"":nameProduct]))",Firefox 66.0,,,2019-07-13 01:56:03,2019-07-13 01:56:09,5.405s,PASSED
+"waitForElementNotVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Firefox 66.0,,,2019-07-13 01:56:09,2019-07-13 01:56:12,3.138s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/DetailProduct/ProductOpinion/access_product_opinion,Firefox 66.0,,,2019-07-13 01:56:12,2019-07-13 01:56:13,1.475s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/button_opinion""), 3)",Firefox 66.0,,,2019-07-13 01:56:12,2019-07-13 01:56:12,0.131s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/button_opinion""))",Firefox 66.0,,,2019-07-13 01:56:12,2019-07-13 01:56:13,0.365s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/button_send-opinion""), 3)",Firefox 66.0,,,2019-07-13 01:56:13,2019-07-13 01:56:13,0.595s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/DetailProduct/ProductOpinion/send_opinion,Firefox 66.0,,,2019-07-13 01:56:13,2019-07-13 01:56:45,31.620s,FAILED
+"waitForElementVisible(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/button_send-opinion""), 3)",Firefox 66.0,,,2019-07-13 01:56:14,2019-07-13 01:56:14,0.069s,PASSED
+"clickOffset(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/icons_raiting""), 0, 10)",Firefox 66.0,,,2019-07-13 01:56:14,2019-07-13 01:56:14,0.331s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProduct/ProductOpinion/icons_raiting""))",Firefox 66.0,,,2019-07-13 01:56:14,2019-07-13 01:56:45,30.650s,FAILED
+,,,,,,,
+Test Cases/SET_UP_BROWSER/close_browser,Firefox 66.0,,,2019-07-13 01:56:45,2019-07-13 01:56:48,3.163s,PASSED
+closeBrowser(),Firefox 66.0,,,2019-07-13 01:56:45,2019-07-13 01:56:48,2.732s,PASSED

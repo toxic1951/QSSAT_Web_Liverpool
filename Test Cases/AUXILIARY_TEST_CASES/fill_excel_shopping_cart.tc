@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>fill_excel_shopping_cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46d00bc9-2abc-4a75-979c-7d5ede39cc2a</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>92f14e16-c5e6-46dc-b6bd-d74fa4fbc902</id>
+      <masked>false</masked>
+      <name>i</name>
+   </variable>
+   <variable>
+      <defaultValue>10</defaultValue>
+      <description></description>
+      <id>54d80b70-5c93-44a1-a088-cf9309e10a98</id>
+      <masked>false</masked>
+      <name>limit</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d1ff94f5-db69-45d3-995b-f4b999fcf10b</id>
+      <masked>false</masked>
+      <name>nameProduct</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8981c0f5-5a59-45f1-a1f3-0da228d13229</id>
+      <masked>false</masked>
+      <name>priceProduct</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>96e2ea74-ea25-42da-8ed1-1ca6a7279c9d</id>
+      <masked>false</masked>
+      <name>formatedPriceProd</name>
+   </variable>
+</TestCaseEntity>

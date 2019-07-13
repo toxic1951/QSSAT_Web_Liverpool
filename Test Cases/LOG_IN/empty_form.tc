@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>empty_form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec7cce06-0ac5-483c-b9ed-9ed33abded82</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>149ff2b0-cdd0-4146-9a94-5e44b889422e</id>
+      <masked>false</masked>
+      <name>actualMessage</name>
+   </variable>
+</TestCaseEntity>

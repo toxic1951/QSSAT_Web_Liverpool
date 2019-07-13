@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CreateMassiveShoppingList,Firefox 66.0,,,2019-07-12 19:25:53,2019-07-12 19:27:54,2m - 0.453s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-12 19:25:54,2019-07-12 19:26:09,14.983s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-12 19:25:55,2019-07-12 19:26:08,13.803s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-12 19:26:08,2019-07-12 19:26:09,0.477s,PASSED
+,,,,,,,
+Test Cases/HOME_PAGE/access_section_products,Firefox 66.0,,,2019-07-12 19:26:09,2019-07-12 19:26:19,9.684s,PASSED
+"waitForElementVisible(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]), 3)",Firefox 66.0,,,2019-07-12 19:26:11,2019-07-12 19:26:11,0.760s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]))",Firefox 66.0,,,2019-07-12 19:26:11,2019-07-12 19:26:12,0.451s,PASSED
+delay(1),Firefox 66.0,,,2019-07-12 19:26:12,2019-07-12 19:26:13,1.076s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/li_sub-menu"", [""nameOption"":""Videojuegos""]))",Firefox 66.0,,,2019-07-12 19:26:13,2019-07-12 19:26:13,0.275s,PASSED
+delay(1),Firefox 66.0,,,2019-07-12 19:26:13,2019-07-12 19:26:14,1.004s,PASSED
+"click(findTestObject(""HOME_PAGE/NavBar/a_section"", [""nameTitleSection"":""Accesorios"", ""nameSection"":""XBOX""]))",Firefox 66.0,,,2019-07-12 19:26:14,2019-07-12 19:26:18,4.041s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Firefox 66.0,,,2019-07-12 19:26:18,2019-07-12 19:26:19,0.242s,PASSED
+,,,,,,,
+Test Cases/AUXILIARY_TEST_CASES/fill_excel_shopping_cart,Firefox 66.0,,,2019-07-12 19:26:19,2019-07-12 19:27:54,1m - 35.112s,ERROR
+driver = getWebDriver(),Firefox 66.0,,,2019-07-12 19:26:20,2019-07-12 19:26:20,0.040s,PASSED
+"for ([i = 1, i <= limit, (i++)])",Firefox 66.0,,,2019-07-12 19:26:20,2019-07-12 19:27:54,1m - 33.954s,PASSED

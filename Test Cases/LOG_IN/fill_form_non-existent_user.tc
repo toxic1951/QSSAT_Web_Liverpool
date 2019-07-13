@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>fill_form_non-existent_user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5cade597-e5f6-425c-9c61-bddc9df94a23</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>325ac3dc-547f-44ea-a8ff-024035d70498</id>
+      <masked>false</masked>
+      <name>actualText</name>
+   </variable>
+</TestCaseEntity>

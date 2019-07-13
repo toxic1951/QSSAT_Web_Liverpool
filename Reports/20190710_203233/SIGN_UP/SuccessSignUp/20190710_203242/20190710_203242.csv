@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SuccessSignUp,Chrome 75.0.3770.100,,,2019-07-10 20:35:19,2019-07-10 20:35:55,35.999s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Chrome 75.0.3770.100,,,2019-07-10 20:35:20,2019-07-10 20:35:40,19.418s,PASSED
+openBrowser(BASE_URL),Chrome 75.0.3770.100,,,2019-07-10 20:35:21,2019-07-10 20:35:38,16.930s,PASSED
+maximizeWindow(),Chrome 75.0.3770.100,,,2019-07-10 20:35:38,2019-07-10 20:35:40,1.489s,PASSED
+,,,,,,,
+Test Cases/LOG_IN/access_log_in,Chrome 75.0.3770.100,,,2019-07-10 20:35:40,2019-07-10 20:35:42,2.243s,PASSED
+"click(findTestObject(""HOME_PAGE/Header/button_login""))",Chrome 75.0.3770.100,,,2019-07-10 20:35:40,2019-07-10 20:35:42,1.558s,PASSED
+"waitForElementVisible(findTestObject(""LOG_IN/iframe_log-in""), 3)",Chrome 75.0.3770.100,,,2019-07-10 20:35:42,2019-07-10 20:35:42,0.205s,PASSED
+,,,,,,,
+Test Cases/SIGN_UP/access_sign_up,Chrome 75.0.3770.100,,,2019-07-10 20:35:42,2019-07-10 20:35:46,3.659s,PASSED
+"click(findTestObject(""LOG_IN/button_sign-up""))",Chrome 75.0.3770.100,,,2019-07-10 20:35:42,2019-07-10 20:35:45,2.626s,PASSED
+"verifyElementVisible(findTestObject(""GLOBAL/title_h1"", [""txtTitle"":""Beneficios de Registrarse""]))",Chrome 75.0.3770.100,,,2019-07-10 20:35:45,2019-07-10 20:35:46,0.506s,PASSED
+,,,,,,,
+Test Cases/SIGN_UP/success_sing_up,Chrome 75.0.3770.100,,,2019-07-10 20:35:46,2019-07-10 20:35:54,8.181s,PASSED
+random = new java.util.Random(),Chrome 75.0.3770.100,,,2019-07-10 20:35:46,2019-07-10 20:35:46,0.007s,PASSED
+rand = random.nextInt(100),Chrome 75.0.3770.100,,,2019-07-10 20:35:46,2019-07-10 20:35:46,0.003s,PASSED
+"verifyElementClickable(findTestObject(""SIGN_UP/button_accept""))",Chrome 75.0.3770.100,,,2019-07-10 20:35:46,2019-07-10 20:35:46,0.131s,PASSED
+"setText(findTestObject(""SIGN_UP/input_email""), ""iart"" + rand + ""@yopmail.com"")",Chrome 75.0.3770.100,,,2019-07-10 20:35:46,2019-07-10 20:35:47,1.082s,PASSED
+"setEncryptedText(findTestObject(""SIGN_UP/input_password""), ""cNkTP62zox2sjTkN4QiJDw=="")",Chrome 75.0.3770.100,,,2019-07-10 20:35:47,2019-07-10 20:35:48,0.705s,PASSED
+"setText(findTestObject(""SIGN_UP/input_name""), ""IAN"")",Chrome 75.0.3770.100,,,2019-07-10 20:35:48,2019-07-10 20:35:48,0.349s,PASSED
+"setText(findTestObject(""SIGN_UP/input_last-name""), ""ROMERO"")",Chrome 75.0.3770.100,,,2019-07-10 20:35:48,2019-07-10 20:35:49,0.410s,PASSED
+"setText(findTestObject(""SIGN_UP/input_second-last-name""), ""TORRES"")",Chrome 75.0.3770.100,,,2019-07-10 20:35:49,2019-07-10 20:35:49,0.287s,PASSED
+"selectOptionByLabel(findTestObject(""SIGN_UP/select_day""), ""27"", false)",Chrome 75.0.3770.100,,,2019-07-10 20:35:49,2019-07-10 20:35:49,0.319s,PASSED
+"selectOptionByValue(findTestObject(""SIGN_UP/select_month""), ""6"", false)",Chrome 75.0.3770.100,,,2019-07-10 20:35:49,2019-07-10 20:35:50,0.204s,PASSED
+"selectOptionByLabel(findTestObject(""SIGN_UP/select_year""), ""1998"", false)",Chrome 75.0.3770.100,,,2019-07-10 20:35:50,2019-07-10 20:35:50,0.205s,PASSED
+"click(findTestObject(""SIGN_UP/radio_male""))",Chrome 75.0.3770.100,,,2019-07-10 20:35:50,2019-07-10 20:35:50,0.197s,PASSED
+"click(findTestObject(""SIGN_UP/button_accept""))",Chrome 75.0.3770.100,,,2019-07-10 20:35:50,2019-07-10 20:35:54,3.573s,PASSED
+"verifyElementText(findTestObject(""LOG_IN/select_profile""), ""IAN"")",Chrome 75.0.3770.100,,,2019-07-10 20:35:54,2019-07-10 20:35:54,0.117s,PASSED
+,,,,,,,
+Test Cases/SET_UP_BROWSER/close_browser,Chrome 75.0.3770.100,,,2019-07-10 20:35:54,2019-07-10 20:35:55,1.599s,PASSED
+closeBrowser(),Chrome 75.0.3770.100,,,2019-07-10 20:35:54,2019-07-10 20:35:55,1.236s,PASSED

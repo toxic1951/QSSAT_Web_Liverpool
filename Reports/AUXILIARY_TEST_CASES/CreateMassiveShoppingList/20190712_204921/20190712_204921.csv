@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CreateMassiveShoppingList,Firefox 66.0,,,2019-07-12 20:49:26,2019-07-12 20:51:39,2m - 13.122s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-12 20:49:27,2019-07-12 20:49:44,17.309s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-12 20:49:28,2019-07-12 20:49:44,15.989s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-12 20:49:44,2019-07-12 20:49:44,0.344s,PASSED
+,,,,,,,
+Test Cases/HOME_PAGE/access_section_products,Firefox 66.0,,,2019-07-12 20:49:44,2019-07-12 20:49:53,8.745s,PASSED
+"waitForElementVisible(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]), 3)",Firefox 66.0,,,2019-07-12 20:49:45,2019-07-12 20:49:45,0.216s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]))",Firefox 66.0,,,2019-07-12 20:49:45,2019-07-12 20:49:46,0.281s,PASSED
+delay(1),Firefox 66.0,,,2019-07-12 20:49:46,2019-07-12 20:49:47,1.071s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/li_sub-menu"", [""nameOption"":""Videojuegos""]))",Firefox 66.0,,,2019-07-12 20:49:47,2019-07-12 20:49:47,0.285s,PASSED
+delay(1),Firefox 66.0,,,2019-07-12 20:49:47,2019-07-12 20:49:48,1.007s,PASSED
+"click(findTestObject(""HOME_PAGE/NavBar/a_section"", [""nameTitleSection"":""Accesorios"", ""nameSection"":""XBOX""]))",Firefox 66.0,,,2019-07-12 20:49:48,2019-07-12 20:49:53,4.620s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Firefox 66.0,,,2019-07-12 20:49:53,2019-07-12 20:49:53,0.231s,PASSED
+,,,,,,,
+Test Cases/AUXILIARY_TEST_CASES/fill_excel_shopping_cart,Firefox 66.0,,,2019-07-12 20:49:53,2019-07-12 20:51:39,1m - 46.446s,ERROR
+driver = getWebDriver(),Firefox 66.0,,,2019-07-12 20:49:54,2019-07-12 20:49:54,0.025s,PASSED
+listProducts = [],Firefox 66.0,,,2019-07-12 20:49:54,2019-07-12 20:49:54,0.001s,PASSED
+"for ([i = 1, i <= listProducts.size(), (i++)])",Firefox 66.0,,,2019-07-12 20:49:54,2019-07-12 20:51:39,1m - 45.467s,PASSED

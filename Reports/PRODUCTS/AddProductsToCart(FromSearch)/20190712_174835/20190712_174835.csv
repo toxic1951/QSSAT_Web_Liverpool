@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AddProductsToCart(FromSearch),Firefox 66.0,,,2019-07-12 17:48:41,2019-07-12 17:49:25,43.943s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-12 17:48:42,2019-07-12 17:49:06,23.700s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-12 17:48:43,2019-07-12 17:49:05,22.352s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-12 17:49:05,2019-07-12 17:49:06,0.323s,PASSED
+,,,,,,,
+Test Cases/HOME_PAGE/search_product,Firefox 66.0,,,2019-07-12 17:49:06,2019-07-12 17:49:14,8.175s,PASSED
+"waitForElementClickable(findTestObject(""HOME_PAGE/Header/input_search""), 3)",Firefox 66.0,,,2019-07-12 17:49:07,2019-07-12 17:49:07,0.184s,PASSED
+"setText(findTestObject(""HOME_PAGE/Header/input_search""), ""Gold 3 Meses"")",Firefox 66.0,,,2019-07-12 17:49:07,2019-07-12 17:49:07,0.218s,PASSED
+"click(findTestObject(""HOME_PAGE/Header/button_search""))",Firefox 66.0,,,2019-07-12 17:49:07,2019-07-12 17:49:14,7.025s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/DetailProduct/GeneralView/add_product_to_cart,Firefox 66.0,,,2019-07-12 17:49:14,2019-07-12 17:49:21,7.360s,PASSED
+"waitForElementClickable(findTestObject(""PRODUCTS/DetailProducts/input_qty""), 3)",Firefox 66.0,,,2019-07-12 17:49:15,2019-07-12 17:49:16,0.217s,PASSED
+"for ([x = 1, x <= 3, (x++)])",Firefox 66.0,,,2019-07-12 17:49:16,2019-07-12 17:49:20,4.011s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProducts/button_add-shopping-cart""))",Firefox 66.0,,,2019-07-12 17:49:20,2019-07-12 17:49:20,0.632s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/DetailProducts/div_modal-product-added""), 3)",Firefox 66.0,,,2019-07-12 17:49:20,2019-07-12 17:49:21,0.865s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProducts/button_close-modal-product-added""))",Firefox 66.0,,,2019-07-12 17:49:21,2019-07-12 17:49:21,0.346s,PASSED
+,,,,,,,
+Test Cases/SET_UP_BROWSER/close_browser,Firefox 66.0,,,2019-07-12 17:49:21,2019-07-12 17:49:25,3.736s,PASSED
+closeBrowser(),Firefox 66.0,,,2019-07-12 17:49:22,2019-07-12 17:49:25,3.120s,PASSED

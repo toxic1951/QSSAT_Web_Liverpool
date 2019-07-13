@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SelectAndAddProductsFromCart,Chrome 75.0.3770.100,,,2019-07-10 20:34:01,2019-07-10 20:35:12,1m - 11.082s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Chrome 75.0.3770.100,,,2019-07-10 20:34:02,2019-07-10 20:34:28,26.450s,PASSED
+openBrowser(BASE_URL),Chrome 75.0.3770.100,,,2019-07-10 20:34:03,2019-07-10 20:34:27,24.098s,PASSED
+maximizeWindow(),Chrome 75.0.3770.100,,,2019-07-10 20:34:27,2019-07-10 20:34:28,1.548s,PASSED
+,,,,,,,
+Test Cases/LOG_IN/access_log_in,Chrome 75.0.3770.100,,,2019-07-10 20:34:28,2019-07-10 20:34:31,3.080s,PASSED
+"click(findTestObject(""HOME_PAGE/Header/button_login""))",Chrome 75.0.3770.100,,,2019-07-10 20:34:29,2019-07-10 20:34:31,2.196s,PASSED
+"waitForElementVisible(findTestObject(""LOG_IN/iframe_log-in""), 3)",Chrome 75.0.3770.100,,,2019-07-10 20:34:31,2019-07-10 20:34:31,0.187s,PASSED
+,,,,,,,
+Test Cases/LOG_IN/success_log_in,Chrome 75.0.3770.100,,,2019-07-10 20:34:31,2019-07-10 20:34:39,7.819s,PASSED
+"setText(findTestObject(""LOG_IN/input_email""), ""iart60910@yopmail.com"")",Chrome 75.0.3770.100,,,2019-07-10 20:34:32,2019-07-10 20:34:33,0.640s,PASSED
+"setEncryptedText(findTestObject(""LOG_IN/input_password""), ""pvWt8Onr8p8JrmFePASEjg=="")",Chrome 75.0.3770.100,,,2019-07-10 20:34:33,2019-07-10 20:34:33,0.753s,PASSED
+"click(findTestObject(""LOG_IN/button_sign-in""))",Chrome 75.0.3770.100,,,2019-07-10 20:34:33,2019-07-10 20:34:39,5.472s,PASSED
+"waitForElementNotVisible(findTestObject(""HOME_PAGE/Header/icon_load-user""), 5)",Chrome 75.0.3770.100,,,2019-07-10 20:34:39,2019-07-10 20:34:39,0.172s,PASSED
+"verifyElementText(findTestObject(""LOG_IN/select_profile""), ""ian"")",Chrome 75.0.3770.100,,,2019-07-10 20:34:39,2019-07-10 20:34:39,0.144s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/access_section_products,Chrome 75.0.3770.100,,,2019-07-10 20:34:39,2019-07-10 20:34:51,11.906s,PASSED
+"waitForElementVisible(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]), 3)",Chrome 75.0.3770.100,,,2019-07-10 20:34:40,2019-07-10 20:34:40,0.155s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]))",Chrome 75.0.3770.100,,,2019-07-10 20:34:40,2019-07-10 20:34:40,0.202s,PASSED
+delay(1),Chrome 75.0.3770.100,,,2019-07-10 20:34:40,2019-07-10 20:34:41,1.054s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/li_sub-menu"", [""nameOption"":""Videojuegos""]))",Chrome 75.0.3770.100,,,2019-07-10 20:34:41,2019-07-10 20:34:41,0.192s,PASSED
+delay(1),Chrome 75.0.3770.100,,,2019-07-10 20:34:41,2019-07-10 20:34:42,1.007s,PASSED
+"click(findTestObject(""HOME_PAGE/NavBar/a_section"", [""nameTitleSection"":""Accesorios"", ""nameSection"":""XBOX""]))",Chrome 75.0.3770.100,,,2019-07-10 20:34:42,2019-07-10 20:34:51,8.587s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Chrome 75.0.3770.100,,,2019-07-10 20:34:51,2019-07-10 20:34:51,0.321s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/select_product_catalog,Chrome 75.0.3770.100,,,2019-07-10 20:34:51,2019-07-10 20:35:03,12.195s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Chrome 75.0.3770.100,,,2019-07-10 20:34:52,2019-07-10 20:34:52,0.109s,PASSED
+"click(findTestObject(""PRODUCTS/CatalogProducts/li_product"", [""nameProduct"":""Gold 3 Meses""]))",Chrome 75.0.3770.100,,,2019-07-10 20:34:52,2019-07-10 20:35:00,8.415s,PASSED
+"waitForElementNotVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Chrome 75.0.3770.100,,,2019-07-10 20:35:00,2019-07-10 20:35:03,3.272s,PASSED
+,,,,,,,
+Test Cases/PRODUCTS/add_product_to_cart,Chrome 75.0.3770.100,,,2019-07-10 20:35:03,2019-07-10 20:35:10,6.902s,PASSED
+"waitForElementClickable(findTestObject(""PRODUCTS/DetailProducts/input_qty""), 3)",Chrome 75.0.3770.100,,,2019-07-10 20:35:04,2019-07-10 20:35:04,0.227s,PASSED
+"for ([x = 1, x <= 3, (x++)])",Chrome 75.0.3770.100,,,2019-07-10 20:35:04,2019-07-10 20:35:07,3.488s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProducts/button_add-shopping-cart""))",Chrome 75.0.3770.100,,,2019-07-10 20:35:07,2019-07-10 20:35:08,0.711s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/DetailProducts/div_modal-product-added""), 3)",Chrome 75.0.3770.100,,,2019-07-10 20:35:08,2019-07-10 20:35:09,1.255s,PASSED
+"click(findTestObject(""PRODUCTS/DetailProducts/button_close-modal-product-added""))",Chrome 75.0.3770.100,,,2019-07-10 20:35:09,2019-07-10 20:35:10,0.811s,PASSED
+,,,,,,,
+Test Cases/SET_UP_BROWSER/close_browser,Chrome 75.0.3770.100,,,2019-07-10 20:35:10,2019-07-10 20:35:12,2.014s,PASSED
+closeBrowser(),Chrome 75.0.3770.100,,,2019-07-10 20:35:11,2019-07-10 20:35:12,1.208s,PASSED

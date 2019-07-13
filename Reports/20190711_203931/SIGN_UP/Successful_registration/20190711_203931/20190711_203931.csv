@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Successful_registration,Firefox 66.0,,,2019-07-11 20:39:37,2019-07-11 20:43:14,3m - 36.677s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-11 20:39:38,2019-07-11 20:39:58,19.466s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-11 20:39:40,2019-07-11 20:39:58,17.768s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-11 20:39:58,2019-07-11 20:39:58,0.332s,PASSED
+,,,,,,,
+Test Cases/LOG_IN/access_log_in,Firefox 66.0,,,2019-07-11 20:39:58,2019-07-11 20:40:00,1.999s,PASSED
+"click(findTestObject(""HOME_PAGE/Header/button_login""))",Firefox 66.0,,,2019-07-11 20:39:59,2019-07-11 20:39:59,0.669s,PASSED
+"waitForElementVisible(findTestObject(""LOG_IN/iframe_log-in""), 3)",Firefox 66.0,,,2019-07-11 20:39:59,2019-07-11 20:40:00,0.415s,PASSED
+,,,,,,,
+Test Cases/SIGN_UP/access_sign_up,Firefox 66.0,,,2019-07-11 20:40:00,2019-07-11 20:40:03,3.110s,PASSED
+"click(findTestObject(""LOG_IN/button_sign-up""))",Firefox 66.0,,,2019-07-11 20:40:01,2019-07-11 20:40:02,1.242s,PASSED
+"verifyElementVisible(findTestObject(""GLOBAL/title_h1"", [""txtTitle"":""Beneficios de Registrarse""]))",Firefox 66.0,,,2019-07-11 20:40:02,2019-07-11 20:40:03,0.540s,PASSED
+,,,,,,,
+Test Cases/SIGN_UP/registered_user,Firefox 66.0,,,2019-07-11 20:40:03,2019-07-11 20:43:11,3m - 8.340s,PASSED
+"verifyElementClickable(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-11 20:40:05,2019-07-11 20:40:05,0.426s,PASSED
+"click(findTestObject(""SIGN_UP/button_accept""))",Firefox 66.0,,,2019-07-11 20:40:05,2019-07-11 20:40:06,0.666s,PASSED
+"for (def e : getWebDriver().findElements(By.xpath(""//label[@class=""error""]"")))",Firefox 66.0,,,2019-07-11 20:40:06,2019-07-11 20:40:27,21.533s,PASSED
+"for ([x = 0, x <= requiredFields.size() - 1, (x++)])",Firefox 66.0,,,2019-07-11 20:40:27,2019-07-11 20:43:11,2m - 43.975s,PASSED
+,,,,,,,
+Test Cases/SET_UP_BROWSER/close_browser,Firefox 66.0,,,2019-07-11 20:43:11,2019-07-11 20:43:14,2.810s,PASSED
+closeBrowser(),Firefox 66.0,,,2019-07-11 20:43:12,2019-07-11 20:43:14,2.245s,PASSED

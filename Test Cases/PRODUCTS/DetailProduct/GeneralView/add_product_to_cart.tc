@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_product_to_cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f178202-ff3a-4e48-baa1-642c87513c63</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>37f8630f-4567-4a9c-9c1c-960f4c41f1f0</id>
+      <masked>false</masked>
+      <name>x</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>3a56ab45-587e-42fe-bef4-1e5823a27f52</id>
+      <masked>false</masked>
+      <name>cantProducts</name>
+   </variable>
+</TestCaseEntity>

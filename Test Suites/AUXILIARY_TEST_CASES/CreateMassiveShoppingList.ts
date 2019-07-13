@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CreateMassiveShoppingList</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c060eb25-0553-4b06-89e2-93570af3bf16</testSuiteGuid>
+   <testCaseLink>
+      <guid>37af3e6f-df25-494c-a97d-1a49619e3824</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SET_UP_BROWSER/launch_browser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>56921f34-5413-4414-b63e-828415e3b668</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HOME_PAGE/access_section_products</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e732f63c-4dbc-4e45-b3fc-970f19445d2b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AUXILIARY_TEST_CASES/fill_excel_shopping_cart</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>92f14e16-c5e6-46dc-b6bd-d74fa4fbc902</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54d80b70-5c93-44a1-a088-cf9309e10a98</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d1ff94f5-db69-45d3-995b-f4b999fcf10b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8981c0f5-5a59-45f1-a1f3-0da228d13229</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>96e2ea74-ea25-42da-8ed1-1ca6a7279c9d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

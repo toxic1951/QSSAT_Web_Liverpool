@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Successful_registration" time="130" tests="5" failures="0" errors="0">
+    <testsuite name="Successful_registration" tests="5" failures="0" errors="0" time="130" timestamp="2019-07-11 19:48:52" hostname="QualtopGroup - DESKTOP-JOAKIH6" id="Test Suites/SIGN_UP/Successful_registration">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\QualtopGroup\\Katalon Studio\\QSSAT_Web_Liverpool\\Reports\\20190711_194846\\SIGN_UP\\Successful_registration\\20190711_194846"/>
+            <property name="logFiles" value="C:\\Users\\QualtopGroup\\Katalon Studio\\QSSAT_Web_Liverpool\\Reports\\20190711_194846\\SIGN_UP\\Successful_registration\\20190711_194846\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="QualtopGroup - DESKTOP-JOAKIH6"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.0.1"/>
+            <property name="browser" value="Firefox 66.0"/>
+            <property name="hostAddress" value="192.168.56.1"/>
+            <property name="sessionId" value="3413b798-b96c-4e43-82c2-f2bad78a3d7e"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/SET_UP_BROWSER/launch_browser" classname="Test Cases/SET_UP_BROWSER/launch_browser" status="PASSED">
+            <system-out>2019-07-11 19:48:52 - [TEST_CASE][PASSED] - Test Cases/SET_UP_BROWSER/launch_browser: Test Cases/SET_UP_BROWSER/launch_browser&#xD;
+&#xD;
+2019-07-11 19:48:53 - [TEST_STEP][PASSED] - openBrowser(BASE_URL): Browser is opened with url: 'https://www.liverpool.com.mx/tienda/home.jsp'&#xD;
+&#xD;
+2019-07-11 19:48:54 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-07-11 19:48:54 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-07-11 19:49:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.liverpool.com.mx/tienda/home.jsp'&#xD;
+&#xD;
+2019-07-11 19:49:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-07-11 19:49:11 - [MESSAGE][PASSED] - Current window maximized</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/LOG_IN/access_log_in" classname="Test Cases/LOG_IN/access_log_in" status="PASSED">
+            <system-out>2019-07-11 19:49:11 - [TEST_CASE][PASSED] - Test Cases/LOG_IN/access_log_in: Test Cases/LOG_IN/access_log_in&#xD;
+&#xD;
+2019-07-11 19:49:11 - [TEST_STEP][PASSED] - click(findTestObject("HOME_PAGE/Header/button_login")): Object: 'Object Repository/HOME_PAGE/Header/button_login' is clicked on&#xD;
+&#xD;
+2019-07-11 19:49:12 - [MESSAGE][PASSED] - Object: 'Object Repository/HOME_PAGE/Header/button_login' is clicked on&#xD;
+&#xD;
+2019-07-11 19:49:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("LOG_IN/iframe_log-in"), 3): Object 'Object Repository/LOG_IN/iframe_log-in' is visible&#xD;
+&#xD;
+2019-07-11 19:49:13 - [MESSAGE][PASSED] - Object 'Object Repository/LOG_IN/iframe_log-in' is visible</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/SIGN_UP/access_sign_up" classname="Test Cases/SIGN_UP/access_sign_up" status="PASSED">
+            <system-out>2019-07-11 19:49:13 - [TEST_CASE][PASSED] - Test Cases/SIGN_UP/access_sign_up: Test Cases/SIGN_UP/access_sign_up&#xD;
+&#xD;
+2019-07-11 19:49:13 - [TEST_STEP][PASSED] - click(findTestObject("LOG_IN/button_sign-up")): Object: 'Object Repository/LOG_IN/button_sign-up' is clicked on&#xD;
+&#xD;
+2019-07-11 19:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LOG_IN/button_sign-up' is clicked on&#xD;
+&#xD;
+2019-07-11 19:49:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GLOBAL/title_h1", ["txtTitle":"Beneficios de Registrarse"])): Object 'Object Repository/GLOBAL/title_h1' is visible&#xD;
+&#xD;
+2019-07-11 19:49:15 - [MESSAGE][PASSED] - Object 'Object Repository/GLOBAL/title_h1' is visible</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/SIGN_UP/registered_user" classname="Test Cases/SIGN_UP/registered_user" status="PASSED">
+            <system-out>2019-07-11 19:49:15 - [TEST_CASE][PASSED] - Test Cases/SIGN_UP/registered_user: Test Cases/SIGN_UP/registered_user&#xD;
+&#xD;
+2019-07-11 19:49:16 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("SIGN_UP/button_accept")): Object 'Object Repository/SIGN_UP/button_accept' is clickable&#xD;
+&#xD;
+2019-07-11 19:49:16 - [MESSAGE][PASSED] - Object 'Object Repository/SIGN_UP/button_accept' is clickable&#xD;
+&#xD;
+2019-07-11 19:49:16 - [TEST_STEP][PASSED] - click(findTestObject("SIGN_UP/button_accept")): Object: 'Object Repository/SIGN_UP/button_accept' is clicked on&#xD;
+&#xD;
+2019-07-11 19:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/SIGN_UP/button_accept' is clicked on&#xD;
+&#xD;
+2019-07-11 19:49:17 - [TEST_STEP][PASSED] - for (def x : requiredFields): null&#xD;
+&#xD;
+2019-07-11 19:49:24 - [TEST_STEP][PASSED] - flagAlert = verifyElementVisible(findTestObject("SIGN_UP/txt_messageError", ["nameField":x.toString()]), OPTIONAL): Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:49:38 - [MESSAGE][PASSED] - Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:49:38 - [TEST_STEP][PASSED] - if (flagAlert): 
+
+El campo Correo ElectrónicoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:49:52 - [TEST_STEP][PASSED] - logInfo("
+
+El campo " + x.toString() + "SI es requerido!!"): 
+
+El campo Correo ElectrónicoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:49:56 - [MESSAGE][INFO] - 
+
+El campo Correo ElectrónicoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:01 - [TEST_STEP][PASSED] - flagAlert = false: null&#xD;
+&#xD;
+2019-07-11 19:50:14 - [TEST_STEP][PASSED] - flagAlert = verifyElementVisible(findTestObject("SIGN_UP/txt_messageError", ["nameField":x.toString()]), OPTIONAL): Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:50:27 - [MESSAGE][PASSED] - Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:50:27 - [TEST_STEP][PASSED] - if (flagAlert): 
+
+El campo ContraseñaSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:37 - [TEST_STEP][PASSED] - logInfo("
+
+El campo " + x.toString() + "SI es requerido!!"): 
+
+El campo ContraseñaSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:37 - [MESSAGE][INFO] - 
+
+El campo ContraseñaSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:37 - [TEST_STEP][PASSED] - flagAlert = false: null&#xD;
+&#xD;
+2019-07-11 19:50:37 - [TEST_STEP][PASSED] - flagAlert = verifyElementVisible(findTestObject("SIGN_UP/txt_messageError", ["nameField":x.toString()]), OPTIONAL): Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:50:37 - [MESSAGE][PASSED] - Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:50:37 - [TEST_STEP][PASSED] - if (flagAlert): 
+
+El campo Nombre(s)SI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:37 - [TEST_STEP][PASSED] - logInfo("
+
+El campo " + x.toString() + "SI es requerido!!"): 
+
+El campo Nombre(s)SI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:37 - [MESSAGE][INFO] - 
+
+El campo Nombre(s)SI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:37 - [TEST_STEP][PASSED] - flagAlert = false: null&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - flagAlert = verifyElementVisible(findTestObject("SIGN_UP/txt_messageError", ["nameField":x.toString()]), OPTIONAL): Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:50:38 - [MESSAGE][PASSED] - Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - if (flagAlert): 
+
+El campo Apellido PaternoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - logInfo("
+
+El campo " + x.toString() + "SI es requerido!!"): 
+
+El campo Apellido PaternoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:38 - [MESSAGE][INFO] - 
+
+El campo Apellido PaternoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - flagAlert = false: null&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - flagAlert = verifyElementVisible(findTestObject("SIGN_UP/txt_messageError", ["nameField":x.toString()]), OPTIONAL): Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:50:38 - [MESSAGE][PASSED] - Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - if (flagAlert): 
+
+El campo Apellido MaternoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - logInfo("
+
+El campo " + x.toString() + "SI es requerido!!"): 
+
+El campo Apellido MaternoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:38 - [MESSAGE][INFO] - 
+
+El campo Apellido MaternoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - flagAlert = false: null&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - flagAlert = verifyElementVisible(findTestObject("SIGN_UP/txt_messageError", ["nameField":x.toString()]), OPTIONAL): Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:50:38 - [MESSAGE][PASSED] - Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - if (flagAlert): 
+
+El campo Fecha de NacimientoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - logInfo("
+
+El campo " + x.toString() + "SI es requerido!!"): 
+
+El campo Fecha de NacimientoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:38 - [MESSAGE][INFO] - 
+
+El campo Fecha de NacimientoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - flagAlert = false: null&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - flagAlert = verifyElementVisible(findTestObject("SIGN_UP/txt_messageError", ["nameField":x.toString()]), OPTIONAL): Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:50:38 - [MESSAGE][PASSED] - Object 'Object Repository/SIGN_UP/txt_messageError' is visible&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - if (flagAlert): 
+
+El campo SexoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - logInfo("
+
+El campo " + x.toString() + "SI es requerido!!"): 
+
+El campo SexoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:38 - [MESSAGE][INFO] - 
+
+El campo SexoSI es requerido!!&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - flagAlert = false: null&#xD;
+&#xD;
+2019-07-11 19:50:38 - [TEST_STEP][PASSED] - verifyEqual(flagFail, false): Actual object 'false' and expected object 'false' are equal&#xD;
+&#xD;
+2019-07-11 19:50:58 - [MESSAGE][PASSED] - Actual object 'false' and expected object 'false' are equal</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/SET_UP_BROWSER/close_browser" classname="Test Cases/SET_UP_BROWSER/close_browser" status="PASSED">
+            <system-out>2019-07-11 19:50:58 - [TEST_CASE][PASSED] - Test Cases/SET_UP_BROWSER/close_browser: Test Cases/SET_UP_BROWSER/close_browser&#xD;
+&#xD;
+2019-07-11 19:50:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-07-11 19:51:02 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-11 19:48:52 - [TEST_SUITE][INCOMPLETE] - Successful_registration: null</system-out>
+        <system-err>2019-07-11 19:48:52 - [TEST_SUITE][INCOMPLETE] - Successful_registration: null</system-err>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CreateMassiveShoppingList,Firefox 66.0,,,2019-07-13 00:09:33,2019-07-13 00:10:03,30.005s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-13 00:09:34,2019-07-13 00:09:48,14.289s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-13 00:09:35,2019-07-13 00:09:48,13.521s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-13 00:09:48,2019-07-13 00:09:48,0.052s,PASSED
+,,,,,,,
+Test Cases/HOME_PAGE/access_section_products,Firefox 66.0,,,2019-07-13 00:09:48,2019-07-13 00:09:59,10.318s,PASSED
+"waitForElementVisible(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]), 3)",Firefox 66.0,,,2019-07-13 00:09:49,2019-07-13 00:09:50,0.522s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]))",Firefox 66.0,,,2019-07-13 00:09:50,2019-07-13 00:09:50,0.613s,PASSED
+delay(1),Firefox 66.0,,,2019-07-13 00:09:50,2019-07-13 00:09:51,1.046s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/li_sub-menu"", [""nameOption"":""Celulares""]))",Firefox 66.0,,,2019-07-13 00:09:51,2019-07-13 00:09:52,0.210s,PASSED
+delay(1),Firefox 66.0,,,2019-07-13 00:09:52,2019-07-13 00:09:53,1.004s,PASSED
+"click(findTestObject(""HOME_PAGE/NavBar/a_section"", [""nameTitleSection"":""Equipos"", ""nameSection"":""Ver Todos los Modelos""]))",Firefox 66.0,,,2019-07-13 00:09:53,2019-07-13 00:09:58,5.709s,PASSED
+"waitForElementVisible(findTestObject(""PRODUCTS/CatalogProducts/span_total-products""), 3)",Firefox 66.0,,,2019-07-13 00:09:58,2019-07-13 00:09:59,0.234s,PASSED
+,,,,,,,
+Test Cases/AUXILIARY_TEST_CASES/fill_excel_shopping_cart,Firefox 66.0,,,2019-07-13 00:09:59,2019-07-13 00:10:03,4.695s,PASSED
+driver = getWebDriver(),Firefox 66.0,,,2019-07-13 00:09:59,2019-07-13 00:09:59,0.035s,PASSED
+listProducts = [],Firefox 66.0,,,2019-07-13 00:09:59,2019-07-13 00:09:59,0.001s,PASSED
+"for ([i = 1, i <= listProducts.size() - 1, (i++)])",Firefox 66.0,,,2019-07-13 00:09:59,2019-07-13 00:10:00,0.925s,PASSED
+"qssat.web.liverpool.SaveProdcutsDBExcel.saveProducts(listProducts, limit)",Firefox 66.0,,,2019-07-13 00:10:00,2019-07-13 00:10:03,3.062s,PASSED

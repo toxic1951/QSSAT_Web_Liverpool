@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CreateMassiveShoppingList,Firefox 66.0,,,2019-07-13 00:08:20,2019-07-13 00:08:51,31.320s,INCOMPLETE
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Firefox 66.0,,,2019-07-13 00:08:21,2019-07-13 00:08:45,24.651s,PASSED
+openBrowser(BASE_URL),Firefox 66.0,,,2019-07-13 00:08:21,2019-07-13 00:08:45,23.853s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-07-13 00:08:45,2019-07-13 00:08:45,0.049s,PASSED
+,,,,,,,
+Test Cases/HOME_PAGE/access_section_products,Firefox 66.0,,,2019-07-13 00:08:45,2019-07-13 00:08:50,4.495s,FAILED
+"waitForElementVisible(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]), 3)",Firefox 66.0,,,2019-07-13 00:08:46,2019-07-13 00:08:46,0.339s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/ul-menu"", [""nameMenu"":""Departamentos""]))",Firefox 66.0,,,2019-07-13 00:08:46,2019-07-13 00:08:47,0.511s,PASSED
+delay(1),Firefox 66.0,,,2019-07-13 00:08:47,2019-07-13 00:08:48,1.042s,PASSED
+"mouseOver(findTestObject(""HOME_PAGE/NavBar/li_sub-menu"", [""nameOption"":""Celulares""]))",Firefox 66.0,,,2019-07-13 00:08:48,2019-07-13 00:08:48,0.326s,PASSED
+delay(1),Firefox 66.0,,,2019-07-13 00:08:48,2019-07-13 00:08:49,1.006s,PASSED
+"click(findTestObject(""HOME_PAGE/NavBar/a_section"", [""nameTitleSection"":""Equipos"", ""nameSection"":""Ver Todos los Modelos""]))",Firefox 66.0,,,2019-07-13 00:08:49,2019-07-13 00:08:50,0.416s,FAILED
+,,,,,,,
+Test Cases/AUXILIARY_TEST_CASES/fill_excel_shopping_cart,Firefox 66.0,,,2019-07-13 00:08:50,2019-07-13 00:08:51,1.198s,ERROR
+driver = getWebDriver(),Firefox 66.0,,,2019-07-13 00:08:51,2019-07-13 00:08:51,0.019s,PASSED
+listProducts = [],Firefox 66.0,,,2019-07-13 00:08:51,2019-07-13 00:08:51,0.006s,PASSED
+"for ([i = 1, i <= listProducts.size() - 1, (i++)])",Firefox 66.0,,,2019-07-13 00:08:51,2019-07-13 00:08:51,0.229s,PASSED

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>empty_form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05f92cdf-dc3a-462c-8d43-d6773c2f3e22</testCaseGuid>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>e87e8713-b9d9-4139-8e38-aa1a53da2dc3</id>
+      <masked>false</masked>
+      <name>flagFail</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>6739e532-b642-4a7b-a039-3b6da49cf74c</id>
+      <masked>false</masked>
+      <name>actualReqFields</name>
+   </variable>
+   <variable>
+      <defaultValue>['Introduce tu nombre', 'Por favor introduzca el apellido paterno', 'El dia es requerido', 'El mes es requerido', 'El año es requerido', 'Por favor selecciona el Sexo.', 'Introduce tu Apellido Materno.', 'Introduce tu contraseña', 'Introduce tu correo electrónico']</defaultValue>
+      <description></description>
+      <id>c14d56a4-14e5-46ba-82ae-051132a5bd78</id>
+      <masked>false</masked>
+      <name>requiredFields</name>
+   </variable>
+</TestCaseEntity>
